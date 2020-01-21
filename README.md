@@ -2,7 +2,8 @@
 
 # cprofile-howto
 
-How to cProfile Python scripts written by others.
+How to cProfile Python scripts written by others (where you don't know which
+file to edit or where to even start looking).
 
 
 ## Problem
@@ -13,8 +14,10 @@ This is our example script with example arguments:
 $ myscript --somearg --anotheroption X
 ```
 
-After browsing [cProfile documentation](https://docs.python.org/3/library/profile.html#module-cProfile)
-it may not be clear where to insert the `cProfile.run()` for the pip installed script.
+After browsing the
+[cProfile](https://docs.python.org/3/library/profile.html#module-cProfile)
+documentation it was not clear to me where to insert the `cProfile.run()` for
+the pip installed script.
 
 
 ## How to profile the script
