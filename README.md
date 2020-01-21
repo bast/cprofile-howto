@@ -1,6 +1,6 @@
 
 
-# cprofile-howto
+# How to cProfile
 
 How to cProfile Python scripts written by others (where you don't know which
 file to edit or where to even start looking).
