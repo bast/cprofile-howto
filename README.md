@@ -30,7 +30,7 @@ $ python -m cProfile -o restats $(which myscript) --somearg --anotheroption X
 
 ## Producing statistics from the restats file
 
-Run this scripts:
+Run this script to extract statistics:
 ```python
 import pstats
 
