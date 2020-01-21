@@ -19,6 +19,8 @@ After browsing the
 documentation it was not clear to me where to insert the `cProfile.run()` for
 the pip installed script.
 
+After some trial and error, the following worked:
+
 
 ## How to profile the script
 
